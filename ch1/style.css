@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(226, 224, 224);
+    width: 100%;
+    height: 100%;
+
+}
+
+#bdy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.texte_card{
+    width: 35%;
+    padding-right: 30px;
+    text-align: left;
+
+}
+.texte_card p{
+    font-size:larger;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.form{
+    display: flex;
+    width: 20%;
+    justify-content:center;
+    background-color: #ffe;
+    height: 290px;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.champ1 input[type="text"]{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px ;
+    border-color:none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.champ2 input[type="password"]{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.form  .connect{
+    background-color: #227BEF;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    color:#ffe;
+    font-size: larger;
+}
+
+.form  .new{
+    background-color: #48B636;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    color:#ffe;
+    font-size: larger;
+}
+
+
+
+.form p a{
+    color:blue;
+    text-decoration: none;
+}
+.line{
+    width: 90%;
+}
+
+footer{
+    position:relative;
+    text-align: center;
+    left:275px;
+}
